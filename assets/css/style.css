@@ -7,6 +7,8 @@ html:root {
     --bf_light: #fefeff;   
 }
 
+
+
 /* #endregion general  */
 
 /* #region debug */
@@ -21,6 +23,10 @@ html:root {
 #app_header {
     height: 100px;
     background-color: var(--bf_darker);
+}
+
+#app_header .container, #app_header .row {
+    height: 100%;
 }
 
 /* #region header */
