@@ -64,3 +64,11 @@ img {
 }
 
 /* #endregion top_footer */
+
+/* #region bottom_footer */
+
+#bottom_footer {
+    background-color: var(--bf_darker);
+}
+
+/* #endregion bottom_footer */
