@@ -29,10 +29,6 @@ img {
     background-color: var(--bf_darker);
 }
 
-#app_header .container, #app_header .row {
-    height: 100%;
-}
-
 /* #endregion header */
 
 /* #region jumbotron */
@@ -41,3 +37,10 @@ img {
 }
 
 /* #endregion jumbotron */
+
+/* #region about */
+
+#about {
+    background-color: var(--bf_primary);
+}
+/* #endregion about */
