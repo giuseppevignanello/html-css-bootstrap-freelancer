@@ -38,9 +38,21 @@ img {
 
 /* #endregion jumbotron */
 
+
+/* #region portfolio */
+#portfolio {
+    background-color: var(--bf_light);
+}
+/* #endregion portfolio */
 /* #region about */
 
 #about {
     background-color: var(--bf_primary);
 }
 /* #endregion about */
+
+/* #region contact_me  */
+#contact_me {
+    background-color: var(--bf_light);
+}
+/* #endregion contact_me  */
