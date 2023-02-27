@@ -7,6 +7,10 @@ html:root {
     --bf_light: #fefeff;   
 }
 
+img {
+    max-width: 100%;
+}
+
 
 
 /* #endregion general  */
@@ -17,10 +21,6 @@ html:root {
     background-color: red;
 }
 
-.debug #jumbotron .star {
-    height: 30px;
-    background-color: red;
-}
 /* #endregion debug */
 
 /* #region header */
