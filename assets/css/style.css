@@ -48,11 +48,11 @@ img {
 
 
 .star_dark::before {
-    background-color: var(dark);
+    background-color: var(--bf_dark);
 }
 
 .star_dark::after {
-    background-color: var(dark);
+    background-color: var(--bf_dark);
 }
 /* #endregion general  */
 
