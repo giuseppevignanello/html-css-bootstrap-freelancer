@@ -11,13 +11,12 @@ img {
     max-width: 100%;
 }
 
-#star {
+.star {
     position: relative;
 }
 
-#star::before {
+.star::before {
     content: "";
-    background-color: var(--bf_light);
     display: block;
     height: 2px;
     width: 50px;
@@ -27,9 +26,9 @@ img {
     transform: translate(50%, -50%);
 }
 
-#star::after {
+
+.star::after {
     content: "";
-    background-color: var(--bf_light);
     display: block;
     height: 2px;
     width: 50px;
@@ -56,12 +55,20 @@ img {
 
 }
 
-/* #endregion jumbotron */
+#jumbotron .star::before, #jumbotron .star::after {
+    background-color: var(--bf_light);
+}
 
+
+/* #endregion jumbotron */
 
 /* #region portfolio */
 #portfolio {
     background-color: var(--bf_light);
+}
+
+#portfolio .star::before, #portfolio .star::after {
+    background-color: var(--bf_darker)
 }
 /* #endregion portfolio */
 /* #region about */
