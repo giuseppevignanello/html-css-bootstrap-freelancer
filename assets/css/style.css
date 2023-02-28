@@ -11,21 +11,26 @@ img {
     max-width: 100%;
 }
 
+/* #region utilities  */
+
+
+/* #endregion utilities  */
+
+
 
 
 /* #endregion general  */
 
 /* #region debug */
-.debug #app_header .row [class^="col"] {
+/* .debug #app_header .row [class^="col"] {
     height: 50px;
     background-color: red;
-}
+} */
 
 /* #endregion debug */
 
 /* #region header */
 #app_header {
-    height: 100px;
     background-color: var(--bf_darker);
 }
 
