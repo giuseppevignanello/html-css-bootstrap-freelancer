@@ -67,7 +67,6 @@ img {
     aspect-ratio: 1;
 }
 
-
 .bg_primary {
     background-color: var(--bf_primary);
 }
@@ -95,24 +94,3 @@ img {
 }
 /* #endregion portfolio */
 
-/* #region contact_me  */
-#contact_me {
-    background-color: var(--bf_light);
-}
-/* #endregion contact_me  */
-
-/* #region top_footer */
-
-#top_footer {
-    background-color: var(--bf_dark);
-}
-
-/* #endregion top_footer */
-
-/* #region bottom_footer */
-
-#bottom_footer {
-    background-color: var(--bf_darker);
-}
-
-/* #endregion bottom_footer */
