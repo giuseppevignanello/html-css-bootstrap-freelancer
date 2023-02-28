@@ -11,23 +11,37 @@ img {
     max-width: 100%;
 }
 
-/* #region utilities  */
+#star {
+    position: relative;
+}
 
+#star::before {
+    content: "";
+    background-color: var(--bf_light);
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
 
-/* #endregion utilities  */
-
-
-
+#star::after {
+    content: "";
+    background-color: var(--bf_light);
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, 50%);
+}
 
 /* #endregion general  */
 
-/* #region debug */
-/* .debug #app_header .row [class^="col"] {
-    height: 50px;
-    background-color: red;
-} */
 
-/* #endregion debug */
 
 /* #region header */
 #app_header {
@@ -39,6 +53,7 @@ img {
 /* #region jumbotron */
 #jumbotron {
     background-color: var(--bf_primary);
+
 }
 
 /* #endregion jumbotron */
