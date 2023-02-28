@@ -38,9 +38,32 @@ img {
     transform: translate(-50%, 50%);
 }
 
+.star_light::before {
+    background-color: var(--bf_light);
+}
+
+.star_light::after {
+    background-color: var(--bf_light);
+}
+
+
+.star_dark::before {
+    background-color: var(dark);
+}
+
+.star_dark::after {
+    background-color: var(dark);
+}
 /* #endregion general  */
 
+/* #region utilities  */
 
+.px_5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* #endregion utilities  */
 
 /* #region header */
 #app_header {
@@ -53,10 +76,6 @@ img {
 #jumbotron {
     background-color: var(--bf_primary);
 
-}
-
-#jumbotron .star::before, #jumbotron .star::after {
-    background-color: var(--bf_light);
 }
 
 
