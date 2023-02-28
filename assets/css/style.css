@@ -63,6 +63,10 @@ img {
     padding-right: 5rem;
 }
 
+.ratio_1 {
+    aspect-ratio: 1;
+}
+
 
 .bg_primary {
     background-color: var(--bf_primary);
